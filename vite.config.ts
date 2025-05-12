@@ -4,10 +4,11 @@ import { sveltekit } from '@sveltejs/kit/vite';
 const config = {
   plugins: [sveltekit()],
   preview: {
-    port: 3000,
     host: true,
+    port: 4173,
     allowedHosts: ['weather-tracker-9dfv.onrender.com']
   }
 };
 
 export default config;
+
